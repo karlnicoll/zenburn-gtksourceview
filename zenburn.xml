@@ -1,0 +1,110 @@
+<?xml version="1.0" ?>
+<style-scheme id="zenburn" name="Zenburn" version="1.0">
+
+  <!-- Metadata -->
+  <author>Karl Nicoll</author>
+  <_description>Dark color scheme based on Jani Nurminen's Zenburn colour scheme for Vim</_description>
+	
+  <!-- Colors -->
+  <color name="normal"     value="#DCDCCC" />
+  <color name="background" value="#3F3F3F" />
+  <color name="comment"    value="#7F9F7F" />
+  <color name="constant"   value="#DCA3A3" />
+  <color name="cursor"     value="#8FAF9F" />
+  <color name="diffadd"    value="#709080" />
+  <color name="diffaddbg"  value="#313C36" />
+  <color name="diffchgbg"  value="#333333" />
+  <color name="diffdel"    value="#333333" />
+  <color name="diffdelbg"  value="#464646" />
+  <color name="error"      value="#80D4AA" />
+  <color name="errorbg"    value="#2F2F2F" />
+  <color name="float"      value="#C0BED1" />
+  <color name="function"   value="#EFEF8F" />
+  <color name="identifier" value="#EFDCBC" />
+  <color name="number"     value="#8CD0D3" />
+  <color name="preproc"    value="#FFCFAF" />
+  <color name="special"    value="#CFBFAF" />
+  <color name="string"     value="#CC9393" />
+  <color name="statement"  value="#E3CEAB" />
+  <color name="text"       value="#DCDCCC" />
+  <color name="todo"       value="#DFDFDF" />
+  <color name="type"       value="#DFDFBF" />
+  <color name="xmlns"      value="#C89191" />
+  <color name="xmltag"     value="#E3CEAB" />
+	
+  <!-- Global -->
+  <style name="text"                        foreground="text"      background="background" />
+  <style name="selection"                                          background="cursor" />
+  <style name="cursor"                      foreground="cursor"  />
+  <style name="current-line"                                       background="#505050" />
+  <style name="line-numbers"                foreground="#9FAFAF"   background="#262626" />
+  <style name="draw-spaces"                 foreground="#808080" />
+
+  <!-- Brace Matching -->
+  <style name="bracket-match"               foreground="#F0F9F9"                           bold="true"/>
+  <style name="bracket-mismatch"            foreground="#F09F9F"                           bold="true"/>
+	
+  <!-- Right Margin -->
+  <style name="right-margin"                foreground="#4F5F5F"   background="#2F2F2F" />
+
+  <!-- Search Matching -->
+  <style name="search-match"                foreground="#555753"   background="#358A35" />
+  
+  <!-- Keywords -->
+  <style name="def:keyword"                 foreground="#f0dfaf"                           bold="true" />
+	
+  <!-- Comments -->
+  <style name="def:comment"                 foreground="comment" />
+  <style name="def:shebang"                 foreground="comment"                           bold="true" />
+  <style name="def:doc-comment-element"                                                    italic="true" />
+
+  <!-- Constants -->
+  <style name="def:constant"                foreground="constant"                          bold="true" />
+  <style name="def:floating-point"          foreground="float" />
+  <style name="def:number"                  foreground="number" />
+  <style name="def:specials"                foreground="special" />
+  <style name="def:special-char"            foreground="constant"                          bold="true" />
+  <style name="def:special-constant"        foreground="constant"                          bold="true" />
+  <style name="def:string"                  foreground="string" />
+
+
+  <!-- Identifiers -->
+  <style name="def:identifier"              foreground="identifier" />
+
+  <!-- Statements -->
+  <style name="def:statement"               foreground="statement" />
+
+  <!-- Types -->
+  <style name="def:type"                    foreground="type"                              bold="true" />
+  
+  <!-- Functions -->
+  <style name="def:function"                foreground="function" />
+
+  <!-- Others -->
+  <style name="def:preprocessor"            foreground="preproc"                           bold="true" />
+  <style name="def:error"                   foreground="error"     background="errorbg"    bold="true" />
+  <style name="def:note"                    foreground="todo"                              bold="true" />
+  <style name="def:underlined"              foreground="text"                              underline="true" />
+
+  <!-- Language specific styles -->
+  <style name="diff:added-line"             foreground="diffadd"   background="diffaddbg"  bold="true" />
+  <style name="diff:removed-line"           foreground="diffdel"   background="diffdelbg" />
+  <style name="diff:changed-line"           foreground="normal"    background="diffchgbg" />
+  <style name="diff:diff-file"              foreground="normal"    background="diffchgbg"  bold="true" /> 
+  <style name="diff:location"               foreground="normal"    background="diffchgbg" /> 
+  <style name="diff:special-case"           foreground="normal"    background="diffchgbg"  bold="true" />
+
+  <style name="xml:tags"                    foreground="xmltag" />
+  <style name="xml:attribute-name"          foreground="todo"                              bold="true" />
+  <style name="xml:namespace"               foreground="xmlns"                             bold="true" />
+
+  <style name="js:object"                   foreground="type"                              bold="true"/>
+  <style name="js:constructors"             foreground="function" />
+
+  <style name="latex:display-math"          foreground="#DFAF8F" />
+  <style name="latex:command"               foreground="type"                              bold="true" />
+  <style name="latex:include"               foreground="preproc"                           bold="true" />
+  
+  <style name="sh:variable"                 foreground="identifier" />	
+</style-scheme>
+
