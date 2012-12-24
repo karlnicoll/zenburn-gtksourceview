@@ -1,7 +1,4 @@
 gtksourceview-zenburn
 =====================
 
-A Zenburn-based style for [GtkSourceView] [1] and applications that use [GtkSourceView] [1] such as [Gedit] [2].
-
-[1]:	http://projects.gnome.org/gtksourceview/	"GtkSourceView"
-[1]:	http://projects.gnome.org/gedit/			"Gedit"
+A Zenburn-based style for [GtkSourceView](http://projects.gnome.org/gtksourceview/) and applications that use [GtkSourceView](http://projects.gnome.org/gtksourceview/) such as [Gedit](http://projects.gnome.org/gedit/).
