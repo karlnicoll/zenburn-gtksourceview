@@ -32,4 +32,4 @@ Please report any issues or feature requests on the [bugtracker](https://github.
 
 ## Copyright
 
-This style is licensed under the Lesser GNU Lesser General Public License 3.0. Full details can be found in the [COPYING](https://github.com/karlnicoll/zenburn-gtksourceview/blob/master/COPYING) and [COPYING.LESSER](https://github.com/karlnicoll/zenburn-gtksourceview/blob/master/README.md) files.
+This style is licensed under the Lesser GNU Lesser General Public License 3.0. Full details can be found in the [COPYING](https://github.com/karlnicoll/zenburn-gtksourceview/blob/master/COPYING) and [COPYING.LESSER](https://github.com/karlnicoll/zenburn-gtksourceview/blob/master/COPYING.LESSER) files.
