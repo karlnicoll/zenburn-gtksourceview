@@ -21,6 +21,8 @@ Simply grab the zenburn.xml file and copy/move it into one of the following dire
 
 Remember to replace 'x.x' with your GtkSourceView version.
 
+If you're an Arch Linux user, you can use the [AUR](https://aur.archlinux.org/) package [found here](https://aur.archlinux.org/packages/gtksourceview-style-zenburn/) to install the package through the Arch package manager.
+
 ### For Gedit
 
 Download the zenburn.xml file and copy/move it into ~/.local/share/gedit/styles.
